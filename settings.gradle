@@ -1,2 +1,3 @@
 include ':01-image-uploader'
 include ':02-cat-effects'
+include ':03-coding-confessional'
