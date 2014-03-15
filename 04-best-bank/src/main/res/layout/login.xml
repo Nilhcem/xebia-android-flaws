@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0ffffff"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_margin="32dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Connection"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:textColor="#ff202042"
+            android:textSize="42sp"/>
+
+        <EditText
+            android:id="@+id/account_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:inputType="number"
+            android:singleLine="true"
+            android:hint="Account number"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:hint="Password"/>
+
+        <CheckBox
+            android:id="@+id/remember_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:checked="true"
+            android:hint="Remember me"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:onClick="openAccount"
+            android:text="Login"/>
+    </LinearLayout>
+
+</RelativeLayout>

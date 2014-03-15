@@ -1,3 +1,5 @@
 include ':01-image-uploader'
 include ':02-cat-effects'
 include ':03-coding-confessional'
+include ':04-best-bank'
+include ':04-best-bank-screenshot-maker'
