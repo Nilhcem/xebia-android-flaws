@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
 
-        <!-- This kind of $$$$$$ app is often locked in portrait mode -->
+        <!-- This kind of $@!@## app is often locked in portrait mode -->
         <activity
             android:name=".AccountActivity"
             android:screenOrientation="portrait"/>

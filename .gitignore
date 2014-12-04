@@ -11,6 +11,7 @@ build/
 *.apk
 *.ap_
 *.dex
+manifest-merger-release-report.txt
 
 # Java class files
 *.class
